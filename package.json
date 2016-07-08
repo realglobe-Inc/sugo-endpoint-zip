@@ -1,0 +1,52 @@
+{
+  "name": "sugo-endpoint-zip",
+  "version": "1.0.0",
+  "description": "Endpoint to download files as zip",
+  "main": "lib",
+  "scripts": {
+    "prepublish": "./ci/build.js",
+    "test": "./ci/test.js"
+  },
+  "repository": "realglobe-Inc/sugo-endpoint-zip",
+  "keywords": [
+    "SUGOS",
+    "endpoint"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishitaka.com@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realglobe-Inc/sugo-endpoint-zip/issues"
+  },
+  "homepage": "https://github.com/realglobe-Inc/sugo-endpoint-zip#readme",
+  "dependencies": {
+    "asfs": "^1.0.4",
+    "aslock": "^1.0.1",
+    "azip": "^1.0.4",
+    "co": "^4.6.0",
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "ape-doc": "^2.0.3",
+    "ape-tmpl": "^5.0.11",
+    "aport": "^1.0.0",
+    "arequest": "^2.0.2",
+    "asleep": "^1.0.3",
+    "coz": "^6.0.3",
+    "injectmock": "^2.0.0",
+    "mkdirp": "^0.5.1",
+    "sg-server": "^1.2.7",
+    "sugos-assets": "^1.1.8",
+    "sugos-ci": "^1.6.4"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "publishConfig": {
+    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
+  }
+}
