@@ -1,6 +1,6 @@
 {
   "name": "sugo-endpoint-zip",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Endpoint to download files as zip",
   "main": "lib",
   "scripts": {
@@ -39,8 +39,8 @@
     "injectmock": "^2.0.0",
     "mkdirp": "^0.5.1",
     "sg-server": "^1.2.7",
-    "sugos-assets": "^1.1.8",
-    "sugos-ci": "^1.6.4"
+    "sugo-ci-endpoint": "^1.0.0",
+    "sugos-assets": "^1.1.8"
   },
   "engines": {
     "node": ">=6",
