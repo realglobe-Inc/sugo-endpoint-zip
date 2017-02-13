@@ -4,8 +4,8 @@
   "description": "Endpoint to download files as zip",
   "main": "lib",
   "scripts": {
-    "prepublish": "./ci/build.js",
-    "test": "./ci/test.js"
+    "prepare": "node ./ci/build.js",
+    "test": "node ./ci/test.js"
   },
   "repository": "realglobe-Inc/sugo-endpoint-zip",
   "keywords": [
@@ -17,7 +17,7 @@
     "email": "okunishitaka.com@gmail.com",
     "url": "http://okunishitaka.com"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/realglobe-Inc/sugo-endpoint-zip/issues"
   },
@@ -39,14 +39,12 @@
     "injectmock": "^2.0.0",
     "mkdirp": "^0.5.1",
     "sg-server": "^1.2.7",
-    "sugo-ci-endpoint": "^1.0.0",
-    "sugos-assets": "^1.1.8"
+    "sugo-ci-endpoint": "^1.0.4",
+    "sugos-assets": "^2.0.6",
+    "sugos-travis": "^2.0.7"
   },
   "engines": {
     "node": ">=6",
-    "npm": ">=3"
-  },
-  "publishConfig": {
-    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
+    "npm": ">=4"
   }
 }
