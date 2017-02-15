@@ -1,6 +1,6 @@
 {
   "name": "sugo-endpoint-zip",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Endpoint to download files as zip",
   "main": "lib",
   "scripts": {
